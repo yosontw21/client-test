@@ -25,7 +25,7 @@ signupBtn.addEventListener('click', (e) => {
 			if (res.data.status === 'success') {
 				alert('註冊成功!! 請重新登入，點擊確定跳轉登入畫面');
 				// window.location = '../../login.html';
-				location.href = 'https://yosontw21.github.io/client-test/index.html';
+				location.href = 'https://yosontw21.github.io/client-test/login.html';
 			}
 		})
 		.catch((err) => {
